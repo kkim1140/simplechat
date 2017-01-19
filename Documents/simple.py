@@ -56,7 +56,7 @@ def starts_with_vowel(word):
     return True if word[0] in 'aeiou' else False
 
 def debug(tagged):
-    logger.info("debug: respond to %s", tagged)
+    #logger.info("debug: respond to %s", tagged)
     resp = respond(tagged)
     return resp
 
@@ -176,7 +176,7 @@ def main(argv):
         phrase = "I am a chatbot"
 
     #print(tagged)
-    #print(debug(phrase))
+    print(debug(phrase))
 
 
 if __name__ == '__main__':
